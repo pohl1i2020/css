@@ -1,0 +1,36 @@
+body * {
+	box-sizing: border-box;
+}
+.container {
+	
+}
+.container,
+.container > * {
+	padding: 1em;
+}
+.container > header,
+footer {
+	background-color: #f1f7a9;
+	
+	height: 200px;
+	
+}
+main {
+	background-color: #a9e2f8;
+	
+	
+}
+article{
+    padding: 0.5em;
+}
+main article {
+	
+	background-color: #f7f2aa;
+}
+aside {
+	background-color: #f7d493;
+	
+}
+aside article {
+	background-color: #9ac9f0;
+}
